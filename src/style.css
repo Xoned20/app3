@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    padding: 35px;
+}
+
+.meme--header {
+    background-color: #b83dba;
+    padding: 10px;
+}
+
+.meme--header--photo {
+    width: 40px;
+}
+
+.meme--header--text {
+    font-size: 50px;
+    color: #ebebeb;
+}
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 13px;
+}
+
+.form--input {
+    border-radius: 5px;
+    border: 1px solid #c6c6c6;
+    text-indent: 5px;
+}
+
+.form--button {
+    grid-column: 1 / -1;
+    border-radius: 5px;
+    background-color: #b83dba;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
